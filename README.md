@@ -62,6 +62,38 @@ Have an idea for how Brackify could be better? We'd love to hear it!
 
 ---
 
+## Using Labels
+
+When opening an issue, please add the appropriate labels to help us triage and prioritize your report faster. Here's what each label means:
+
+### Type
+| Label | Description |
+|-------|-------------|
+| `bug` | Something isn't working |
+| `feature` | New functionality request |
+| `improvement` | Enhancement of existing functionality |
+| `question` | Further information is requested |
+| `docs` | Documentation related |
+
+### Priority
+| Label | Description |
+|-------|-------------|
+| `priority: high` | Needs immediate attention |
+| `priority: medium` | Normal queue |
+| `priority: low` | Nice to have, no rush |
+
+### Area
+| Label | Description |
+|-------|-------------|
+| `area: web` | Issue affects the desktop web interface |
+| `area: desktop` | Issue affects the desktop app experience |
+| `area: mobile` | Issue affects the mobile experience |
+| `area: all` | Issue affects all platforms |
+
+> **Not sure which label to use?** Don't worry — just pick your best guess. We'll adjust if needed.
+
+---
+
 ## App Screens Overview
 
 When reporting a bug or making a suggestion, it helps to mention **which screen** you're talking about. Here's a quick guide to the main parts of the app:
