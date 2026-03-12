@@ -94,6 +94,24 @@ When opening an issue, please add the appropriate labels to help us triage and p
 
 ---
 
+## Issue Status
+
+Once you submit an issue, we'll update its status as we work through it. Here's what each status means so you can track progress on your reports:
+
+| Status | Description |
+|--------|-------------|
+| `New` | This item hasn't been started yet |
+| `Ready` | This is ready to be picked up |
+| `In Progress` | This is actively being worked on |
+| `In Test` | Ready for testing |
+| `Done` | This has been completed |
+| `To Release` | Tested and waiting to be released |
+| `Cancelled` | This item will not be worked on |
+
+> **You don't need to set the status yourself** — we'll take care of that. Just submit your issue and we'll keep it updated so you always know where things stand.
+
+---
+
 ## App Screens Overview
 
 When reporting a bug or making a suggestion, it helps to mention **which screen** you're talking about. Here's a quick guide to the main parts of the app:
