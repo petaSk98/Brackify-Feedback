@@ -12,136 +12,109 @@ An organizer creates a tournament with a set of entries (images or text), and th
 
 ---
 
-## Creating a Tournament
+## Features at a Glance
 
-Any subreddit member can create a tournament in a few steps:
-
-1. **Create a new post** — Use the subreddit menu and select "Create a new post" under Brackify. You'll be asked for a tournament name — this becomes part of the post title (e.g. "Brackify: Best Fan Art 2026"). You can also leave it blank and name it later. The post is created under your username. It may take a moment to appear in the feed — this is normal. Try refreshing the page after a minute or two.
-2. **Set a title and description** — The tournament name you chose in the previous step is pre-filled here. You can change it, and optionally add a description. You can also add a cover image and drag it to position it the way you want. The title can be styled with a font preset, color, and size.
-3. **Add entries** — Upload images, paste image URLs, or add text entries. You need at least 2 entries and can add up to 64. Both even and odd numbers work — if there's an odd number, one entry gets a free pass (BYE) in the first round and advances automatically. No entry can receive more than one BYE per tournament.
-4. **Choose who can submit** — You can add all entries yourself, or allow community members to contribute their own (see [Submission Modes](#submission-modes) below).
-5. **Configure rules** — Set how long each round lasts (1–24 hours) and optionally require a minimum number of votes before a round can close early. These settings are saved as drafts automatically while you adjust them.
-6. **Start the tournament** — Once everything looks good, hit start. You'll see a preview of the anchor comment that will be posted under the tournament. This comment lists your entries and tournament details. After confirming, the bracket is generated and voting begins.
-
-### Optional settings
-
-- **Per-round duration** — You can set a different duration for each round. By default, the final round gets extra time (1.5× the base duration, up to 24 hours).
-- **Vote threshold** — Set a minimum number of votes per matchup. If all matchups in a round reach the threshold, the round closes early — even if the timer hasn't run out.
-- **Voter requirements** — Restrict voting by minimum account age, minimum karma, or require a verified email. Users who don't meet the requirements can still view the bracket but cannot vote.
-- **Show image labels** — Toggle whether item names are displayed below images during voting and in the bracket.
-- **Use filename as name** — When enabled, uploaded images automatically get their filename (without the file extension) as their display name. For example, uploading `sunset_beach.jpg` names the entry "sunset\_beach". You can still rename any entry manually afterward. This option only applies to image uploads — it has no effect on text entries or image URLs.
-- **Default text style** — Choose a default visual style for text entries (font preset, look preset, colors, gradient). Individual entries can be styled differently.
-
-### Text entry styling
-
-Text entries support several visual options:
-
-- **Font preset** — Choose from default, modern, elegant, or impact fonts.
-- **Look preset** — Apply a visual theme (coral, paper, ember, vivid, ice, sage, dusk, mono).
-- **Gradient and inversion** — Optionally add a gradient or invert the color scheme.
-- **Custom background color** — Override the preset with a specific color.
-
-These options are available both as a default for all text entries and per individual entry.
+- **Image and text tournaments** — upload images, paste URLs, or create styled text entries
+- **2 to 64 entries** — works with any count, even or odd
+- **Community submissions** — let your community contribute entries before the tournament starts
+- **Customizable rules** — round duration, vote thresholds, voter requirements
+- **Live bracket** — interactive, zoomable bracket with color-coded paths
+- **Feed preview** — see matchups and results without opening the post
+- **Notifications** — get notified when a new round starts or the winner is announced
+- **Full audit trail** — every submission, removal, and rename is documented in comments
+- **Mobile-friendly** — responsive design with compact bracket layout on small screens
 
 ---
 
 ## How Voting Works
 
-1. **Open the tournament post** on Reddit.
-2. You'll see a landing screen with the tournament title, description, cover image, and the current round status.
-3. Tap **"Vote →"** to enter the voting view.
-4. **Pick your favorite** by tapping on it.
-5. **Confirm your vote.**
-6. Move on to the next matchup or explore the bracket.
-
-Each matchup has a time limit set by the organizer. When time runs out (or the vote threshold is reached across all matchups in the round), the entry with more votes advances to the next round. If there's a tie, the higher-seeded entry (the one listed first in the matchup) advances — this is standard in bracket tournaments. Tied matchups are marked in the bracket so you can see where it happened. In the final round, a tie results in shared winners — both entries are crowned co-champions.
-
-Once you've voted on all matchups in the current round, you'll see a recap of your picks — including which ones are leading and whether your vote flipped the lead. After that, you're taken to the bracket view where you can follow the progress while the round is still open.
+1. Open the tournament post on Reddit.
+2. You'll see a landing screen with the title, description, and current round status.
+3. Tap **"Vote"** to enter the voting view.
+4. Pick your favorite by tapping on it, then confirm.
+5. Move on to the next matchup or explore the bracket.
 
 You can zoom into images during voting — pinch to zoom on mobile, or Ctrl + scroll on desktop.
 
 **Your vote is final** — once you confirm, it cannot be changed.
 
----
+### When a round ends
 
-## Submission Modes
+Each matchup runs for a set time (1–24 hours, chosen by the organizer). When time runs out, the entry with more votes advances. If the organizer set a vote threshold, the round can close early once all matchups reach it.
 
-The organizer chooses one of two modes when setting up the tournament:
+**Ties:** If both entries have the same number of votes, the higher-seeded entry advances. In the final, a tie means both entries share the win as co-champions. Tied matchups are marked in the bracket.
 
-### Organizer only
+### After you vote
 
-Only the organizer adds entries. Other users see a waiting screen with tournament info (if the title is set) or a generic "being prepared" message until the tournament starts. Once the organizer launches the tournament, voting begins automatically.
-
-### Community submissions
-
-Everyone can contribute entries before the tournament begins. The organizer sets how many items each user can submit (1–20). Submissions close when the bracket reaches 64 entries or the organizer starts the tournament.
-
-#### Submitting entries
-
-In this mode, you can upload images, paste image URLs, or type text entries. There's also a **bulk text mode** that lets you paste multiple text entries at once (one per line).
-
-Your submissions start as **pending** — they're visible to you and the organizer, but they aren't finalized until you publish them.
-
-#### Publishing your entries
-
-When you're ready, tap **"Publish"** to post a Reddit comment under the tournament listing your entries. This comment serves as a public record of what you contributed. You can include a personal message along with it.
-
-**Important:** Your entries are only confirmed once the comment is posted. If you close the page without publishing, your pending entries are removed when the tournament starts.
-
-#### Updating your entries
-
-After publishing, you can still make changes — add more entries (within your limit), remove your own, or rename them. These changes are **staged locally** until you commit them. When you commit, a reply is posted under your original comment showing what changed (added, removed, or renamed).
-
-#### What you can see
-
-- **"Your submissions" tab** — shows all your entries (pending and confirmed).
-- **"All submissions" tab** — shows everyone's confirmed entries. You can choose to reveal or hide other users' entries to avoid spoilers.
-
-#### Organizer review
-
-The organizer can see all entries (including pending ones from other users). Before starting the tournament, the organizer can:
-
-- **Remove** any community-submitted entry — a reply is posted under the submitter's comment explaining the removal (with an optional reason).
-- **Rename** any entry — a reply is posted under the submitter's comment showing the old and new name (with an optional reason).
-
-These audit actions are always documented as public comments.
+Once you've voted on all matchups in the current round, you'll see a recap of your picks — including which ones are leading and whether your vote flipped the lead. Then you're taken to the bracket view to follow the rest of the round.
 
 ---
 
-## Staying in the Loop
+## Creating a Tournament
 
-### Notifications
+Any subreddit member can create a tournament:
 
-Notifications are **off by default**. After you finish voting in a round, you'll be offered the option to subscribe. You can also toggle notifications anytime using the **bell icon** in the bracket view.
+1. **Create a new post** — Use the subreddit menu and select "Create a new post" under Brackify. You'll be asked for a tournament name — this becomes part of the post title. You can also leave it blank and name it later. The post may take a minute or two to appear in the feed.
+2. **Set title and description** — Optionally add a description and a cover image. The title can be styled with a font preset, color, and size.
+3. **Add entries** — Upload images, paste image URLs, or add text entries. You need at least 2 and can add up to 64. If there's an odd number, one entry gets a free pass (BYE) in the first round.
+4. **Choose who can submit** — Add all entries yourself, or allow community members to contribute (see [Community Submissions](#community-submissions)).
+5. **Configure rules** — Set round duration, vote threshold, and voter requirements. Settings save automatically as you go.
+6. **Start the tournament** — Review the anchor comment that will be posted, then confirm. The bracket is generated and voting begins.
 
-When subscribed, you'll receive Reddit notifications (like a reply or mention) when:
-- A new round starts.
-- The tournament winner is announced.
+### Customization options
 
-You can turn notifications off and back on at any time. The app remembers that you've been asked, so it won't prompt you again in later rounds.
+| Option | Description |
+|---|---|
+| **Per-round duration** | Set a different duration for each round. The final round gets extra time by default (1.5x, up to 24h). |
+| **Vote threshold** | Minimum votes per matchup. If all matchups reach it, the round closes early. |
+| **Voter requirements** | Restrict voting by account age, karma, or verified email. |
+| **Show image labels** | Toggle entry names below images during voting and in the bracket. |
+| **Use filename as name** | Uploaded images get their filename as the display name (e.g. `sunset_beach.jpg` → "sunset_beach"). |
+| **Default text style** | Set a default font, look preset, colors, and gradient for text entries. Individual entries can override it. |
 
-### Comments posted by the app
+### Text entry styling
 
-Brackify uses Reddit comments to keep a transparent record of tournament activity:
-
-- **Anchor comment** — Posted when the organizer starts the tournament. Lists the organizer's entries and tournament details (round count, duration, item count).
-- **Submission comments** — Posted by community contributors when they publish their entries. Updates are posted as replies under the original comment.
-- **Audit comments** — Posted as replies when the organizer removes or renames a community entry. Includes the reason if one was provided.
-- **Round closure recaps** — Posted after each round closes. Shows all matchup results — who advanced, any close calls, and what's coming next.
-- **Results comment** — The organizer can post a final results comment when the tournament ends, with a personal message.
-- **Share my picks** — After the tournament ends, voters can share their picks as a comment, including how many of their picks matched the winners and whether they picked the champion.
+Text entries support visual customization: font preset (default, modern, elegant, impact), look preset (coral, paper, ember, vivid, ice, sage, dusk, mono), gradient, color inversion, and custom background color. These can be set as defaults or per entry.
 
 ---
 
-## In Your Feed
+## Community Submissions
 
-You don't have to open every tournament post to see what's going on. Brackify shows a live preview right in the Reddit feed:
+When the organizer enables community mode, everyone can contribute entries before the tournament starts.
 
-- **Before you vote** — A spoiler-free teaser showing the current matchups without vote counts, so you can jump in without anything being revealed.
-- **After you vote** — A recap of your matchups with animated vote count reveals, showing how your picks are doing. Winners are highlighted.
-- **Finished tournaments** — The champion's journey through the bracket, round by round, with vote progressions.
+### The basics
 
-The preview also shows the current round and how much time is left. Tap the post to vote or explore the full bracket.
+- The organizer sets how many entries each user can submit (1–20).
+- Submissions close at 64 total entries, when the organizer pauses them, or when the tournament starts.
+- All entries start as **private drafts** — only you can see yours. You can freely add, remove, rename, and rearrange drafts before publishing.
+
+### Publishing
+
+When you're ready, tap **"Publish my entries"**. This posts a Reddit comment under the tournament as a public record of your contribution. You can include a personal message.
+
+Before publishing, the app checks for duplicate names and available space. All your drafts are published at once — you can't publish just some of them.
+
+**Important:** If you close the page without publishing, your drafts are saved — but unpublished drafts are removed when the tournament starts.
+
+### Editing published entries
+
+After publishing, you can still make changes — each one requires a comment for the audit trail:
+
+- **Add more** — new entries start as drafts, then publish as before.
+- **Rename** — edit inline, confirm via comment dialog. Blocked if the name is already taken.
+- **Remove** — tap delete, confirm via comment dialog.
+
+### The organizer's role
+
+The organizer submits entries the same way as everyone else (drafts → publish → comment). In addition, the organizer can:
+
+- Remove or rename any community entry (documented as a reply under the submitter's comment).
+- **Pause community changes** — temporarily freeze all community editing while keeping existing entries.
+- The organizer has no per-user submission limit but is still subject to the 64-entry cap.
+
+### Switching modes
+
+The organizer can switch from organizer-only to community mode at any time. Once any entry is published, switching back is blocked to protect the comment-based audit trail. Use the pause feature instead.
 
 ---
 
@@ -149,102 +122,100 @@ The preview also shows the current round and how much time is left. Tap the post
 
 ### Bracket
 
-A visual tree of the entire tournament. See which entries won, which are still competing, and the path to the final. You can pan and zoom to explore it. On mobile (screens under 640px), the bracket automatically switches to a compact vertical layout that's easy to scroll through. You can also manually switch between layouts.
+A visual tree of the entire tournament. Pan and zoom to explore it. On mobile, the bracket switches to a compact vertical layout. You can also manually toggle between layouts.
 
-Tap any match in the bracket to see full details — vote counts, the winner, and which entries you voted for. Use arrows, keyboard keys, or swipe to move between matchups.
+Tap any matchup to see full details — vote counts, the winner, and your pick. Navigate between matchups with arrows, keyboard, or swipe.
 
-The bracket uses color coding to help you navigate:
-- **Cyan** marks your votes and your picked path
-- **Green** highlights the current live round (with a pulse indicator)
-- **Purple** shows matchup winners and leading entries
-- **Gold** traces the champion's path through the bracket
+**Color coding:**
+- **Cyan** — your votes and picked path
+- **Green** — current live round (with pulse indicator)
+- **Purple** — matchup winners and leading entries
+- **Gold** — the champion's path
 
-Additional indicators:
-- **Close match badge** — shown when the vote margin is under 15%.
-- **Tie icon** — marks matchups that ended in a tie.
-- **BYE badge** — marks entries that advanced without a match.
-- **Leading pulse** — animated indicator on the currently leading entry while the round is active.
+**Indicators:** close match badge (margin under 15%), tie icon, BYE badge, leading pulse animation, and a toggleable legend explaining all symbols.
 
-A toggleable **legend** explains all bracket symbols.
-
-Between rounds, a brief **ceremony overlay** announces the next round name and how many competitors remain, along with a recap of how many of your picks advanced.
+Between rounds, a ceremony overlay announces the next round and recaps how many of your picks advanced.
 
 ### Ranking
 
-A leaderboard of all entries sorted by how far they advanced and total votes received. Entries that tied share their placement. Tap any entry to see its full journey through the tournament, who submitted it, and which round it reached.
+A leaderboard of all entries sorted by how far they advanced and total votes received. Tap any entry to see its full tournament journey.
 
-### Winner Screen
+### Winner screen
 
-When the tournament ends, the champion is announced with a confetti celebration. From here you can:
+When the tournament ends, the champion is announced with a celebration. You can view the final bracket, check rankings, and **share your picks** as a Reddit comment — including your accuracy and whether you picked the champion.
 
-- View the final bracket.
-- Check the full ranking.
-- **Share your picks** as a Reddit comment — including your accuracy (e.g., "7/10 correct picks") and whether you picked the champion. This can only be done once.
+The winner card shows the final score with a description ("Photo finish", "Close match", "Clear win", or "Landslide"), who submitted the entry, and tournament stats.
 
-If the final ends in a tie, both entries are crowned co-champions and shown side by side.
+If the final ends in a tie, both entries are crowned co-champions.
 
-The winner card shows:
-- The winning entry (image or text).
-- The final score with a description ("Photo finish", "Close match", "Clear win", or "Landslide").
-- Who submitted the entry.
-- Tournament stats (votes cast, matchups played, rounds).
+### Feed preview
 
----
+You don't have to open every post to follow along. Brackify shows a live preview in the Reddit feed:
 
-## How Results Work
+- **Before you vote** — spoiler-free teaser with current matchups (no vote counts).
+- **After you vote** — recap with animated vote count reveals and highlighted winners.
+- **Finished tournaments** — the champion's bracket journey, round by round.
 
-- Each matchup runs for a set amount of time (chosen by the organizer, between 1 and 24 hours per round).
-- If the organizer set a vote threshold, the round closes early once **all** matchups in that round reach the threshold.
-- When a round ends, the entry with more votes advances. Losers are eliminated.
-- **Ties:** If both entries have the same number of votes, the higher-seeded entry advances. In the final, a tie means both entries share the win as co-champions.
-- Results for each matchup are visible in the bracket as soon as the round closes. Tied matchups are marked with a special icon.
-- The tournament continues round by round until one entry remains — the champion.
-
-Vote counts update in real time while a round is active — you don't need to refresh to see the latest numbers.
-
-### BYE logic
-
-If the entry count is odd, one entry receives a free pass (BYE) and advances automatically. The app tries to be fair about BYE assignment:
-
-- No entry receives more than one BYE per tournament.
-- Entries that won a real match are preferred over those that already received a BYE.
-- Among eligible entries, the one with the strongest win record gets the BYE.
+The preview also shows the current round and time remaining.
 
 ---
 
-## Limits and Things to Know
+## Notifications and Comments
 
-- **Minimum 2 entries, maximum 64** per tournament.
-- **Odd numbers are fine** — if the entry count is odd, one entry receives a free pass (BYE) and advances to the next round automatically.
-- **Images are resized** automatically to fit the app. Maximum upload size is 20 MB per image.
-- **Round duration** can be set between 1 and 24 hours per round, with optional per-round overrides.
-- **One vote per matchup** — your vote is final and cannot be changed.
-- Only the organizer who created the tournament can manage it (edit entries, start it, etc.).
-- The tournament post is created under the organizer's Reddit username.
+### Notifications
 
-### Good to know
+Notifications are off by default. After you finish voting in a round, you'll be offered the option to subscribe. You can also toggle them anytime with the bell icon in the bracket view.
 
-Brackify runs inside Reddit as an embedded app. Because of that, a few things may behave slightly differently than a standalone website:
+When subscribed, you'll be notified when a new round starts or the winner is announced.
 
-- **The tournament post may take a minute or two to appear in the feed** after creation. This is how Reddit processes new posts — just refresh the page after a moment.
-- **If you switch away and come back**, the app automatically refreshes the data when the tab regains focus. In most cases, you'll see the latest state right away.
-- **If the app shows a connection notice**, it means it temporarily lost contact with the server. The app polls for updates regularly — if polling fails, you'll see a "Live updates paused" message. Tapping it will attempt to reconnect. This can happen if your internet connection is unstable or if Reddit's servers are under heavy load.
-- **If a round ends while you're still on the voting screen**, you'll see a brief message letting you know. The app will update to show the next round or the final results.
-- **Images stored temporarily** — Uploaded images that can't be saved to Reddit's CDN are stored in a temporary fallback. If the fallback expires (after 30 days), the image shows a placeholder. The app attempts to migrate fallback images to permanent storage in the background.
-- **Refreshing the page** is always a safe option if something looks out of date.
+### Comments posted by the app
+
+Brackify uses Reddit comments as a transparent, public audit trail for all tournament activity. Every comment is posted under the user's own Reddit username — the app never posts anonymously. Before any comment is submitted, the user sees a preview and must confirm it. If they cancel, no comment is posted and their entries remain unchanged in draft.
+
+Comments are organized in a thread hierarchy to keep things clean:
+
+**Setup phase** (community mode):
+- **Community submissions thread** — top-level comment posted when the organizer enables community mode. All submission-related comments are grouped as replies under this thread.
+- **Submission comments** — posted by each user when they publish their entries. Lists all published entry names.
+- **Update replies** — posted under the user's own submission comment when they add, rename, or remove entries.
+- **Audit replies** — posted under the affected user's submission comment when the organizer removes or renames a community entry (with an optional reason).
+
+**Tournament start:**
+- **Anchor comment** — top-level comment posted when the tournament starts, listing the organizer's entries and tournament details.
+
+**During and after the tournament:**
+- **Round recaps** — posted automatically after each round closes, showing all matchup results.
+- **Results comment** — the organizer can post a final message when the tournament ends.
+- **Share my picks** — voters can share their picks as a comment, including accuracy stats.
+
+---
+
+## Limits and Tips
+
+- **2–64 entries** per tournament. Drafts don't count toward the cap until published.
+- **Odd numbers are fine** — one entry gets a BYE (free pass). No entry can receive more than one BYE per tournament. The app assigns BYEs fairly, preferring entries with stronger win records.
+- **Unique names required** — every published entry must have a unique name (case-insensitive). Checked at publish time and when renaming.
+- **Images are resized** automatically. Maximum upload size is 20 MB.
+- **Round duration** — 1 to 24 hours per round, with optional per-round overrides.
+- **One vote per matchup** — your vote is final.
+- **Only the organizer** who created the tournament can manage it.
+- **Vote counts update in real time** — no need to refresh.
+
+### Running inside Reddit
+
+Brackify runs as an embedded Reddit app. A few things to keep in mind:
+
+- **Switching tabs?** The app refreshes data automatically when you return.
+- **"Live updates paused"?** The app temporarily lost contact with the server. Tap the message to reconnect.
+- **Round ended while voting?** You'll see a message and the app will update automatically.
+- **Something looks off?** Refreshing the page is always safe.
 
 ---
 
 ## Feedback and Bug Reports
 
-If you run into a problem, have an idea for improvement, or want to help test the app, visit:
+If you run into a problem, have an idea, or want to help test:
 
 **[github.com/petaSk98/Brackify-Feedback](https://github.com/petaSk98/Brackify-Feedback)**
-
-There you can:
-
-- Report bugs
-- Suggest new features
-- Share feedback about your experience
 
 Your input helps make Brackify better for everyone.
