@@ -68,7 +68,6 @@ Any subreddit member can create a tournament:
 | **Per-round duration** | Set a different duration for each round. The final round gets extra time by default (1.5x, up to 24h). |
 | **Vote threshold** | Minimum votes per matchup. If all matchups reach it, the round closes early. |
 | **Voter requirements** | Restrict voting by account age, karma, or verified email. |
-| **Show image labels** | Toggle entry names below images during voting and in the bracket. |
 | **Use filename as name** | Uploaded images get their filename as the display name (e.g. `sunset_beach.jpg` → "sunset_beach"). |
 | **Default text style** | Set a default font, look preset, colors, and gradient for text entries. Individual entries can override it. |
 
