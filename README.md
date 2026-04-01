@@ -68,7 +68,6 @@ Any subreddit member can create a tournament:
 | **Per-round duration** | Set a different duration for each round. The final round gets extra time by default (1.5x, up to 24h). |
 | **Vote threshold** | Minimum votes per matchup. If all matchups reach it, the round closes early. |
 | **Voter requirements** | Restrict voting by account age, karma, or verified email. |
-| **Show image labels** | Toggle entry names below images during voting and in the bracket. |
 | **Use filename as name** | Uploaded images get their filename as the display name (e.g. `sunset_beach.jpg` → "sunset_beach"). |
 | **Default text style** | Set a default font, look preset, colors, and gradient for text entries. Individual entries can override it. |
 
@@ -170,23 +169,22 @@ When subscribed, you'll be notified when a new round starts or the winner is ann
 
 ### Comments posted by the app
 
-Brackify uses Reddit comments as a transparent, public audit trail for all tournament activity. Every comment is posted under the user's own Reddit username — the app never posts anonymously. Before any comment is submitted, the user sees a preview and must confirm it. If they cancel, no comment is posted and their entries remain unchanged in draft.
+Brackify uses Reddit comments as a transparent, public audit trail. Comments are organized to keep the post's comment section clean.
 
-Comments are organized in a thread hierarchy to keep things clean:
+**Tournament thread** — When you set up a tournament, the app creates a dedicated thread under the post. All tournament-related activity is posted as replies under this thread:
 
-**Setup phase** (community mode):
-- **Community submissions thread** — top-level comment posted when the organizer enables community mode. All submission-related comments are grouped as replies under this thread.
+- **Community submissions announcement** — posted when community submissions are enabled.
 - **Submission comments** — posted by each user when they publish their entries. Lists all published entry names.
-- **Update replies** — posted under the user's own submission comment when they add, rename, or remove entries.
-- **Audit replies** — posted under the affected user's submission comment when the organizer removes or renames a community entry (with an optional reason).
-
-**Tournament start:**
-- **Anchor comment** — top-level comment posted when the tournament starts, listing the organizer's entries and tournament details.
-
-**During and after the tournament:**
+- **Update and audit replies** — posted under the submitter's comment when entries are added, renamed, or removed.
+- **Anchor comment** — posted when the tournament starts, with the organizer's entries and tournament details.
 - **Round recaps** — posted automatically after each round closes, showing all matchup results.
-- **Results comment** — the organizer can post a final message when the tournament ends.
-- **Share my picks** — voters can share their picks as a comment, including accuracy stats.
+
+**Top-level comments** — These are posted directly under the post as regular comments:
+
+- **Results comment** — the organizer can post a personal message with final results when the tournament ends.
+- **Share my picks** — voters can share their voting record and accuracy.
+
+Before any comment is posted under your name, you see a preview and must confirm it. Drafts are private — only you can see your unpublished entries, and nothing is posted until you explicitly publish.
 
 ---
 
