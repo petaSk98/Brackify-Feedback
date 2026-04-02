@@ -131,7 +131,7 @@ Tap any matchup to see full details — vote counts, the winner, and your pick. 
 - **Purple** — matchup winners and leading entries
 - **Gold** — the champion's path
 
-**Indicators:** close match badge (margin under 15%), tie icon, BYE badge, leading pulse animation, and a toggleable legend explaining all symbols.
+**Indicators:** closest match of the round (🎯), dominant lead (🔥), close match badge (margin under 15%), tie icon, BYE badge, leading pulse animation, and a toggleable legend explaining all symbols.
 
 Between rounds, a ceremony overlay announces the next round and recaps how many of your picks advanced.
 
