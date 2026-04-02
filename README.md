@@ -42,7 +42,7 @@ You can zoom into images during voting — pinch to zoom on mobile, or Ctrl + sc
 
 Each matchup runs for a set time (1–24 hours, chosen by the organizer). When time runs out, the entry with more votes advances. If the organizer set a vote threshold, the round can close early once all matchups reach it.
 
-**Ties:** If both entries have the same number of votes, the higher-seeded entry advances. In the final, a tie means both entries share the win as co-champions. Tied matchups are marked in the bracket.
+**Ties:** If both entries have the same number of votes, the entry with the stronger tournament record (higher average win percentage from previous rounds) advances. In the first round, where there is no history, a coin flip decides. In the final, a tie means both entries share the win as co-champions, with the stronger record holder featured as the primary winner. Tied matchups are marked in the bracket.
 
 ### After you vote
 
@@ -145,7 +145,7 @@ When the tournament ends, the champion is announced with a celebration. You can 
 
 The winner card shows the final score with a description ("Photo finish", "Close match", "Clear win", or "Landslide"), who submitted the entry, and tournament stats.
 
-If the final ends in a tie, both entries are crowned co-champions.
+If the final ends in a tie, both entries are crowned co-champions. The entry with the stronger tournament record is featured as the primary winner.
 
 ### Feed preview
 
