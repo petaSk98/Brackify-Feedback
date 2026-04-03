@@ -137,7 +137,7 @@ Between rounds, a ceremony overlay announces the next round and recaps how many 
 
 ### Ranking
 
-A leaderboard of all entries sorted by how far they advanced and total votes received. Tap any entry to see its full tournament journey.
+A leaderboard of all entries ranked by how far they advanced in the bracket. Entries eliminated in the same round are sorted by total votes received. Tap any entry to see its full tournament journey.
 
 ### Winner screen
 
