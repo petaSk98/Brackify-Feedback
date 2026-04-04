@@ -21,7 +21,7 @@ An organizer creates a tournament with a set of entries (images or text), and th
 - **Live bracket** — interactive, zoomable bracket with color-coded paths
 - **Feed preview** — see matchups and results without opening the post
 - **Notifications** — get notified when a new round starts or the winner is announced
-- **Full audit trail** — every submission, removal, and rename is documented in comments
+- **Everything is transparent** — all changes to entries are documented in public comments
 - **Mobile-friendly** — responsive design with compact bracket layout on small screens
 
 ---
@@ -40,9 +40,11 @@ You can zoom into images during voting — pinch to zoom on mobile, or Ctrl + sc
 
 ### When a round ends
 
-Each matchup runs for a set time (1–24 hours, chosen by the organizer). When time runs out, the entry with more votes advances. If the organizer set a vote threshold, the round can close early once all matchups reach it.
+Each matchup runs for a set time (1–24 hours, chosen by the organizer). When time runs out, the entry with more votes advances. If the organizer set a minimum vote count, the round can also end early once every matchup reaches it.
 
-**Ties:** If both entries have the same number of votes, the entry with the stronger tournament record (higher average win percentage from previous rounds) advances. In the first round, where there is no history, a coin flip decides. In the final, a tie means both entries share the win as co-champions, with the stronger record holder featured as the primary winner. Tied matchups are marked in the bracket.
+**Ties:** If both entries get the same number of votes, the one with a better overall track record in the tournament advances. In the first round (where there's no history yet), a coin flip decides. In the final, a tie means both entries are crowned co-champions. Tied matchups are marked in the bracket.
+
+**Matchup shuffling:** From round 2 onward, winners are re-paired so that the strongest performers face the weakest ones. This keeps the most exciting matchups for the later rounds — similar to how playoff brackets work in sports.
 
 ### After you vote
 
@@ -56,24 +58,24 @@ Any subreddit member can create a tournament:
 
 1. **Create a new post** — Use the subreddit menu and select "Create a new post" under Brackify. You'll be asked for a tournament name — this becomes part of the post title. You can also leave it blank and name it later. The post may take a minute or two to appear in the feed.
 2. **Set title and description** — Optionally add a description and a cover image. The title can be styled with a font preset, color, and size.
-3. **Add entries** — Upload images, paste image URLs, or add text entries. You need at least 2 and can add up to 64. If there's an odd number, one entry gets a free pass (BYE) in the first round.
+3. **Add entries** — Upload images (up to 20 MB, automatically resized), paste image URLs, or add text entries. You need at least 2 and can add up to 64. If there's an odd number, one entry gets a free pass in the first round.
 4. **Choose who can submit** — Add all entries yourself, or allow community members to contribute (see [Community Submissions](#community-submissions)).
 5. **Configure rules** — Set round duration, vote threshold, and voter requirements. Settings save automatically as you go.
-6. **Start the tournament** — Review the anchor comment that will be posted, then confirm. The bracket is generated and voting begins.
+6. **Start the tournament** — Review the tournament announcement that will be posted as a comment, then confirm. The bracket is generated and voting begins.
 
 ### Customization options
 
 | Option | Description |
 |---|---|
-| **Per-round duration** | Set a different duration for each round. The final round gets extra time by default (1.5x, up to 24h). |
-| **Vote threshold** | Minimum votes per matchup. If all matchups reach it, the round closes early. |
+| **Per-round duration** | Set a different duration for each round. The final round automatically gets 50% extra time (up to 24h). |
+| **Minimum votes** | Set a minimum number of votes each matchup needs. Once every matchup reaches it, the round ends early. |
 | **Voter requirements** | Restrict voting by account age, karma, or verified email. |
-| **Use filename as name** | Uploaded images get their filename as the display name (e.g. `sunset_beach.jpg` → "sunset_beach"). |
+| **Use filename as entry name** | Uploaded images automatically get their filename as their display name (e.g. `sunset_beach.jpg` → "sunset_beach"). |
 | **Default text style** | Set a default font, look preset, colors, and gradient for text entries. Individual entries can override it. |
 
 ### Text entry styling
 
-Text entries support visual customization: font preset (default, modern, elegant, impact), look preset (coral, paper, ember, vivid, ice, sage, dusk, mono), gradient, color inversion, and custom background color. These can be set as defaults or per entry.
+Text entries support visual customization: choose from several font and color presets, add gradients, or pick a custom background color. You can set a default style for all text entries or customize each one individually.
 
 ---
 
@@ -91,13 +93,13 @@ When the organizer enables community mode, everyone can contribute entries befor
 
 When you're ready, tap **"Publish my entries"**. This posts a Reddit comment under the tournament as a public record of your contribution. You can include a personal message.
 
-Before publishing, the app checks for duplicate names and available space. All your drafts are published at once — you can't publish just some of them.
+Before publishing, the app checks for duplicate names and available space. All your drafts are published at once — you can't pick and choose which ones to publish.
 
 **Important:** If you close the page without publishing, your drafts are saved — but unpublished drafts are removed when the tournament starts.
 
 ### Editing published entries
 
-After publishing, you can still make changes — each one requires a comment for the audit trail:
+After publishing, you can still make changes — each one requires a comment so it's publicly documented:
 
 - **Add more** — new entries start as drafts, then publish as before.
 - **Rename** — edit inline, confirm via comment dialog. Blocked if the name is already taken.
@@ -113,7 +115,7 @@ The organizer submits entries the same way as everyone else (drafts → publish 
 
 ### Switching modes
 
-The organizer can switch from organizer-only to community mode at any time. Once any entry is published, switching back is blocked to protect the comment-based audit trail. Use the pause feature instead.
+The organizer can switch from organizer-only to community mode at any time. Once any entry is published, switching back is blocked because published entries are tied to public comments. Use the pause feature instead to temporarily stop new submissions.
 
 ---
 
@@ -169,29 +171,22 @@ When subscribed, you'll be notified when a new round starts or the winner is ann
 
 ### Comments posted by the app
 
-Brackify uses Reddit comments as a transparent, public audit trail. Comments are organized to keep the post's comment section clean.
+Brackify posts comments to keep everything transparent and traceable:
 
-**Tournament thread** — When you set up a tournament, the app creates a dedicated thread under the post. All tournament-related activity is posted as replies under this thread:
+- When the tournament starts, an announcement comment is posted with the entry list and rules.
+- When community members publish their entries, a comment is posted under the tournament thread.
+- When entries are renamed or removed, a reply is posted under the original submission comment.
+- After each round, a recap comment shows all matchup results.
+- When the tournament ends, you can post your own results comment or share your picks.
 
-- **Community submissions announcement** — posted when community submissions are enabled.
-- **Submission comments** — posted by each user when they publish their entries. Lists all published entry names.
-- **Update and audit replies** — posted under the submitter's comment when entries are added, renamed, or removed.
-- **Anchor comment** — posted when the tournament starts, with the organizer's entries and tournament details.
-- **Round recaps** — posted automatically after each round closes, showing all matchup results.
-
-**Top-level comments** — These are posted directly under the post as regular comments:
-
-- **Results comment** — the organizer can post a personal message with final results when the tournament ends.
-- **Share my picks** — voters can share their voting record and accuracy.
-
-Before any comment is posted under your name, you see a preview and must confirm it. Drafts are private — only you can see your unpublished entries, and nothing is posted until you explicitly publish.
+All tournament-related comments are grouped under a single thread to keep the comment section clean. Before anything is posted under your name, you'll see a preview and must confirm it.
 
 ---
 
 ## Limits and Tips
 
 - **2–64 entries** per tournament. Drafts don't count toward the cap until published.
-- **Odd numbers are fine** — one entry gets a BYE (free pass). No entry can receive more than one BYE per tournament. The app assigns BYEs fairly, preferring entries with stronger win records.
+- **Odd numbers are fine** — one entry gets a free pass to the next round. No entry gets more than one free pass per tournament. Free passes are given to the strongest performer from the previous round.
 - **Unique names required** — every published entry must have a unique name (case-insensitive). Checked at publish time and when renaming.
 - **Images are resized** automatically. Maximum upload size is 20 MB.
 - **Round duration** — 1 to 24 hours per round, with optional per-round overrides.
